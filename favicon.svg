@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" role="img" aria-label="prizma">
+  <!-- prizma mark: three diagonal riso bars (red / violet / blue), matching the in-app header logo.
+       Bars thickened vs the header for legibility at favicon sizes. -->
+  <g fill="none" stroke-linecap="round" stroke-width="17">
+    <line x1="22" y1="82" x2="48" y2="18" stroke="#e11d2a" />
+    <line x1="44" y1="82" x2="70" y2="18" stroke="#7a2bb0" />
+    <line x1="66" y1="82" x2="92" y2="18" stroke="#1f4fe0" />
+  </g>
+</svg>
