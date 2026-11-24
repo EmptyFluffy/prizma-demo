@@ -21,5 +21,7 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
+      # the artifact can take a few seconds to be listed; deploying at once found none (24 Nov 2026)
+      - run: sleep 20
       - id: deployment
         uses: actions/deploy-pages@v4
